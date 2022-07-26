@@ -19,7 +19,7 @@ $y = 12;
 // ------ function with arguments
 
 function registerUser($email) {
-    echo "$email registered" . '<br>';
+    echo "${email} registered" . '<br>';
 }
 
 registerUser('tmugisha@gmail.com');
